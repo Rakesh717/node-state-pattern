@@ -34,7 +34,7 @@ export default class OrderState  {
         );
     }
 
-    color(): string {
+    get color(): string {
         return this.state.color();
     }
 }
